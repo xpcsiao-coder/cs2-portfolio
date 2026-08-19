@@ -1,5 +1,6 @@
 # Quarter 1 Activities
-Name: Xander Pietrus C. Siao
-Section: Dahlia
+Xander Pietrus C. Siao
 
-[hello.py](q1/hello.py)
+Dahlia
+
+(q1/hello.py)
