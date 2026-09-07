@@ -1,11 +1,11 @@
-# cs2-portfolio
+# **cs2-portfolio**
 
-## Xander Pietrus C. Siao
+## *Xander Pietrus C. Siao*
 
-## 8 - Dahlia
+## *8 - Dahlia*
 
 Links of submissions:
 
-[Siao_Xander_Distance.py](q1/Siao_Xander_Distance.py)
+> [Siao_Xander_Distance.py](q1/Siao_Xander_Distance.py)
 
-[hello.py](q1/hello.py)
+> [hello.py](q1/hello.py)
