@@ -10,4 +10,6 @@ Links of submissions:
 
 > [hello.py](q1/hello.py)
 
-> [Score Checker Flowchart](q1/score_checker.md)
+> [Score_Checker.md](q1/score_checker.md)
+
+> [Score_Checker.py](q1/score_checker.py)
