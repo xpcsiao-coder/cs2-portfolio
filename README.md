@@ -9,3 +9,5 @@ Links of submissions:
 > [Siao_Xander_Distance.py](q1/Siao_Xander_Distance.py)
 
 > [hello.py](q1/hello.py)
+
+! [Score Checker Flowchart](q1/score_checker.md)
