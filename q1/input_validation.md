@@ -57,7 +57,7 @@ if grade < 7 or grade > 12:
 email = str(input("What is your email address? "))
 
 if "@brc.pshs.edu.ph" not in email:
-  print("Your name is invalid.")
+  print("Your email is invalid.")
   valid = False
 
 code = str(input("What is your registration code? "))
