@@ -16,4 +16,4 @@ elif score >= 75:
   print("Satisfactory, Good job.")
 
 else: 
-  print("Needs improvement."
+  print("Needs improvement.")
