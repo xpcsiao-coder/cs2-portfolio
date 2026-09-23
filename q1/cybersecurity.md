@@ -1,3 +1,19 @@
+# Fundamentals of Cybersecurity and Data Privacy
+**Activity:** PSHS Secure Club Registration System
+**Name:** Your Name
+**Section:** Your Section
+**Quarter:** 1
+
+---
+
+## Activity Overview
+In this activity, I analyzed a cybersecurity threat and developed secure data-capture rules for a simple
+PSHS Club Registration System.
+The goal is to create a program that collects only necessary information and accepts only correct,
+expected, and appropriate input.
+
+---
+
 # **PART A**
 
 ***Case: Fake Prize***
@@ -16,6 +32,8 @@
 
 5. *What mitigation can reduce the risk?*
 > Ignore suspicious messages and never giving information right away.
+
+---
 
 # **PART B**
 
@@ -46,6 +64,14 @@
 - *Parent Bank Account*
 > Do not collect. Because this program does not require the student's parent bank account.
 
+---
+
+## Privacy Question
+Why is it safer to collect only information that the program actually needs?
+> Because if the programs information gets leaked, there is a huge risk in the students personal information.
+
+---
+
 # **PART C**
 
     | Data Captured | Expected Input        | Possible Risk      | Invalid Input           | Validation Rule         | Error Message                        |
@@ -55,6 +81,21 @@
     | School Email  | Email with "@" & "."  | Invalid email      | student.pshs.brc.edu.ph | Must have "@" and "."   | "Your email is invalid for this activity." |
     | Attendance    | Present/ Absent/ Late | Invalid attendance | Excused                 | Must be either of the 3 | "The input is not accepted." |
 
+---
+
+## Secure Data Capture Questions
+
+### 1. What should your program accept?
+> Any input that is valid according to the validation rules.
+
+### 2. What should your program reject?
+> Any invalid inputs that do not meet the requirements to the validation rules.
+
+### 3. How do your validation rules help reduce incorrect or unsafe input?
+> It ensures that the necessary and accepted are the only ones accepted, making sure it excludes any invalid inputs.
+
+---
+
 # **PART E**
 
-    | Test | Input Situation | Expected Result | 
+    | Test | Input Situation | Expected Result | Actual Output | Result |
