@@ -3,7 +3,7 @@ valid = True
 name = str(input("What is your name? "))
 
 if name == "":
-  print("The inputted name is not accepted.")
+  print("The name cannot be blank.")
   valid = False
 
 else: 
