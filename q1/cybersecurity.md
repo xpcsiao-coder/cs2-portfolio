@@ -54,3 +54,7 @@
     | Club Choice   | Any of the 4 clubs    | Invalid club       | History                 | Must be any of the 4    | "You're not eligible for this activity." |
     | School Email  | Email with "@" & "."  | Invalid email      | student.pshs.brc.edu.ph | Must have "@" and "."   | "Your email is invalid for this activity." |
     | Attendance    | Present/ Absent/ Late | Invalid attendance | Excused                 | Must be either of the 3 | "The input is not accepted." |
+
+# **PART E**
+
+    | Test | Input Situation | Expected Result | 
