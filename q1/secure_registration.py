@@ -24,7 +24,7 @@ else:
       email = str(input("What is your email address? "))
 
       if "@" not in email or "." not in email:
-        print("Your email address is invalid for this activity.")
+        print("Your email is invalid for this activity.")
         valid = False
 
       else: 
