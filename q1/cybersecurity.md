@@ -14,7 +14,7 @@ expected, and appropriate input.
 
 ---
 
-# **PART A**
+# **PART A - CYBERSECURITY THREAT ANALYSIS**
 
 ***Case: Fake Prize***
 
@@ -35,7 +35,7 @@ expected, and appropriate input.
 
 ---
 
-# **PART B**
+# **PART B - DATA PRIVACY AND SECURE DATA CAPTURE**
 
 - *Student Name*
 > Collect. Because this program requires the student's name.
@@ -72,14 +72,14 @@ Why is it safer to collect only information that the program actually needs?
 
 ---
 
-# **PART C**
+# **PART C - SECURITY-FOCUSED VALIDATION RULES**
 
     | Data Captured | Expected Input        | Possible Risk      | Invalid Input           | Validation Rule         | Error Message                        |
-    | Student Name  | Any name              | Missing name       | Blank                   | Mustn't be blank        | "The inputted name is not accepted." |
-    | Section       | Dahlia                | Invalid section    | Ilang-Ilang             | Must be Dahlia          | "You're not eligible for this activity." |
-    | Club Choice   | Any of the 4 clubs    | Invalid club       | History                 | Must be any of the 4    | "You're not eligible for this activity." |
+    | Student Name  | Any name              | Missing name       | Blank                   | Mustn't be blank        | "The name cannot be blank." |
+    | Section       | Dahlia                | Invalid section    | Ilang-Ilang             | Must be Dahlia          | "Your section is invalid for this activity." |
+    | Club Choice   | Any of the 4 clubs    | Invalid club       | History                 | Must be any of the 4    | "Your club is invalid for this activity." |
     | School Email  | Email with "@" & "."  | Invalid email      | student.pshs.brc.edu.ph | Must have "@" and "."   | "Your email is invalid for this activity." |
-    | Attendance    | Present/ Absent/ Late | Invalid attendance | Excused                 | Must be either of the 3 | "The input is not accepted." |
+    | Attendance    | Present/ Absent/ Late | Invalid attendance | Excused                 | Must be either of the 3 | "Your inputted attendance is invalid." |
 
 ---
 
@@ -96,6 +96,54 @@ Why is it safer to collect only information that the program actually needs?
 
 ---
 
-# **PART E**
+# **PART D - SECURE PROGRAM IMPLEMENTATION**
 
-    | Test | Input Situation | Expected Result | Actual Output | Result |
+## Security Practices Applied
+
+### Required Input
+> I made sure that if a blank name was inputted, an error message appeared that clearly describes what is wrong.
+
+### Allowed Values
+> Section, Clubs, and Attendance require specific predefined values, like how the only accepted clubs are Math, Science, Robotics, and Programming, the only section accepted is Dahlia, and attendance must only be present, absent, or late.
+
+### Format Check
+> The email address inputted must contain "@" and a ".".
+
+### Error Messages
+> Error messages are important so that the person using the program can reflect back & check where they may have inputted something wrong.
+
+### Data Minimization
+> I did not collect sensitive information like bank account number or password, since they are unnecessary for this program and ensures the online safety of the person using the program.
+
+---
+
+# **PART E - TESTING AND REFLECTION**
+
+    | Test | Input Situation           | Expected Result       | Actual Output         | Result |
+    | 1.   | All data valid            | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS   |
+    | 2.   | Blank student name        |                       |                       |        |
+    | 3.   | Invalid section           |                       |                       |        |
+    | 4.   | Invalid club choice       |                       |                       |        |
+    | 5.   | Email missing `@`         |                       |                       |        |
+    | 6.   | Email missing `.`         |                       |                       |        |
+    | 7.   | Invalid attendance status |                       |                       |        |
+    | 8.   | Different valid inputs    |                       |                       |        |
+
+---
+
+# Reflection
+
+### 1. What is one cybersecurity threat that can affect an application or user?
+> Write your answer here.
+
+### 2. How can users reduce the risk of phishing or suspicious messages?
+> Write your answer here.
+
+### 3. How can validation rules improve the security of user input?
+> Write your answer here.
+
+### 4. Why should a program avoid collecting unnecessary personal information?
+> Write your answer here.
+
+### 5. How did SG7's input validation concepts become security practices in SG8?
+> Write your answer here.
