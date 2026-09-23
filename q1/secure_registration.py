@@ -17,7 +17,7 @@ else:
     club = str(input("What club are you in? "))
 
     if club != "Robotics" and club != "Science" and club != "Mathematics" and club != "Programming":
-      print("You're not eligible for this activity.")
+      print("Your club is invalid for this activity.")
       valid = False
 
     else:
