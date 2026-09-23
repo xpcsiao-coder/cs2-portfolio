@@ -31,7 +31,7 @@ else:
         attendance = str(input("What is your attendance status? "))
 
         if attendance != "Present" and attendance != "Absent" and attendance != "Late":
-          print("The input is not accepted.")
+          print("Your inputted attendance is invalid.")
           valid = False
 
 if valid is True:
