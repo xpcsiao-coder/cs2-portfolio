@@ -10,7 +10,7 @@ else:
   section = str(input("What is your section? "))
 
   if "Dahlia" not in section:
-    print("You're not eligible for this activity.")
+    print("Your section is invalid for this activity.")
     valid = False
 
   else: 
