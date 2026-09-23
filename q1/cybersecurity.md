@@ -74,12 +74,12 @@ Why is it safer to collect only information that the program actually needs?
 
 # **PART C - SECURITY-FOCUSED VALIDATION RULES**
 
-    | Data Captured | Expected Input        | Possible Risk      | Invalid Input           | Validation Rule         | Error Message                        |
-    | Student Name  | Any name              | Missing name       | Blank                   | Mustn't be blank        | "The name cannot be blank." |
+    | Data Captured | Expected Input        | Possible Risk      | Invalid Input           | Validation Rule         | Error Message                                |
+    | Student Name  | Any name              | Missing name       | Blank                   | Mustn't be blank        | "The name cannot be blank."                  |
     | Section       | Dahlia                | Invalid section    | Ilang-Ilang             | Must be Dahlia          | "Your section is invalid for this activity." |
-    | Club Choice   | Any of the 4 clubs    | Invalid club       | History                 | Must be any of the 4    | "Your club is invalid for this activity." |
-    | School Email  | Email with "@" & "."  | Invalid email      | student.pshs.brc.edu.ph | Must have "@" and "."   | "Your email is invalid for this activity." |
-    | Attendance    | Present/ Absent/ Late | Invalid attendance | Excused                 | Must be either of the 3 | "Your inputted attendance is invalid." |
+    | Club Choice   | Any of the 4 clubs    | Invalid club       | History                 | Must be any of the 4    | "Your club is invalid for this activity."    |
+    | School Email  | Email with "@" & "."  | Invalid email      | student.pshs.brc.edu.ph | Must have "@" and "."   | "Your email is invalid for this activity."   |
+    | Attendance    | Present/ Absent/ Late | Invalid attendance | Excused                 | Must be either of the 3 | "Your inputted attendance is invalid."       |
 
 ---
 
@@ -119,31 +119,31 @@ Why is it safer to collect only information that the program actually needs?
 
 # **PART E - TESTING AND REFLECTION**
 
-    | Test | Input Situation           | Expected Result       | Actual Output         | Result |
-    | 1.   | All data valid            | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS   |
-    | 2.   | Blank student name        |                       |                       |        |
-    | 3.   | Invalid section           |                       |                       |        |
-    | 4.   | Invalid club choice       |                       |                       |        |
-    | 5.   | Email missing `@`         |                       |                       |        |
-    | 6.   | Email missing `.`         |                       |                       |        |
-    | 7.   | Invalid attendance status |                       |                       |        |
-    | 8.   | Different valid inputs    |                       |                       |        |
+    | Test | Input Situation           | Expected Result                              | Actual Output                                | Result |
+    | 1.   | All data valid            | REGISTRATION ACCEPTED                        | REGISTRATION ACCEPTED                        | PASS   |
+    | 2.   | Blank student name        | "The name cannot be blank."                  | "The name cannot be blank."                  | PASS   |
+    | 3.   | Invalid section           | "Your section is invalid for this activity." | "Your section is invalid for this activity." | PASS   |
+    | 4.   | Invalid club choice       | "Your club is invalid for this activity."    | "Your club is invalid for this activity."    | PASS   |
+    | 5.   | Email missing `@`         | "Your email is invalid for this activity."   | "Your email is invalid for this activity."   | PASS   |
+    | 6.   | Email missing `.`         | "Your email is invalid for this activity."   | "Your email is invalid for this activity."   | PASS   |
+    | 7.   | Invalid attendance status | "Your inputted attendance is invalid."       | "Your inputted attendance is invalid."       | PASS   |
+    | 8.   | Different valid inputs    | REGISTRATION ACCEPTED                        | REGISTRATION ACCEPTED                        | PASS   |
 
 ---
 
 # Reflection
 
 ### 1. What is one cybersecurity threat that can affect an application or user?
-> Write your answer here.
+> Phishing.
 
 ### 2. How can users reduce the risk of phishing or suspicious messages?
-> Write your answer here.
+> Using the newest and updated firewalls.
 
 ### 3. How can validation rules improve the security of user input?
-> Write your answer here.
+> So only certain inputs are accepted / allowed.
 
 ### 4. Why should a program avoid collecting unnecessary personal information?
-> Write your answer here.
+> So that any data leaks won't leak any sensitive information.
 
 ### 5. How did SG7's input validation concepts become security practices in SG8?
-> Write your answer here.
+> Because we are utilizing the validation rules and concepts to only allow certain inputs, no more, no less.
