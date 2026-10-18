@@ -40,4 +40,6 @@
 
 ## ⋆.˚⭒⋆ **Q2** ⋆⭒˚.⋆
 
->
+### ***PROGRAMMING ACTIVITY 1***
+
+>[Canteen_Purchase_Calculator.py](q2/canteen_purchase_calculator.py)
