@@ -1,10 +1,12 @@
-# **cs2-portfolio**
+# .˚₊‧✰ **CS2-portfolio** ✰‧₊˚.
 
-## ✦ *Xander Pietrus C. Siao* ✦
+## .˚₊‧✦ *Xander Pietrus C. Siao* ✦‧₊˚.
 
-## *8 - Dahlia*
+## .˚₊‧❀༉˚₊‧ *8 - Dahlia* ‧₊˚❀༉‧₊˚.
 
-✩°｡⋆Links of submissions⋆｡°✩:
+✩°｡⋆**Links of submissions**⋆｡°✩:
+
+## ⋆.˚⭒⋆ **Q1** ⋆⭒˚.⋆
 
 ### ***PROGRAMMING ACTIVITY 1***
 
@@ -19,7 +21,7 @@
 > [Score_Checker.md](q1/score_checker.md)
 >
 > [Score_Checker.py](q1/score_checker.py)
-
+ 
 ### ***PROGRAMMING ACTIVTY 3***
 
 > [Input_Validation.md](q1/input_validation.md)
@@ -33,3 +35,9 @@
 > [CyberSecurity.md](q1/cybersecurity.md)
 >
 > [Secure_Registration.py](q1/secure_registration.py)
+
+---
+
+## ⋆.˚⭒⋆ **Q2** ⋆⭒˚.⋆
+
+>
