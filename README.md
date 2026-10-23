@@ -1,12 +1,12 @@
-# .˚₊‧✰ **CS2-portfolio** ✰‧₊˚.
+# **CS2-portfolio** ✰‧₊˚.
 
-## .˚₊‧✦ *Xander Pietrus C. Siao* ✦‧₊˚.
+## *Xander Pietrus C. Siao* 
 
-## .˚₊‧❀༉˚₊‧ *8 - Dahlia* ‧₊˚❀༉‧₊˚.
+## *8 - Dahlia* ‧₊˚❀༉‧₊˚.
 
-✩°｡⋆**Links of submissions**⋆｡°✩:
+*Links of submissions**⋆｡°✩:
 
-## ⋆.˚⭒⋆ **Q1** ⋆⭒˚.⋆
+## **Q1** ⋆⭒˚.⋆
 
 ### ***PROGRAMMING ACTIVITY 1***
 
@@ -38,7 +38,7 @@
 
 ---
 
-## ⋆.˚⭒⋆ **Q2** ⋆⭒˚.⋆
+## **Q2** ⋆⭒˚.⋆
 
 ### ***PROGRAMMING ACTIVITY 1***
 
