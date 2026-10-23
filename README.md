@@ -1,6 +1,6 @@
 # **CS2-portfolio** ✰‧₊˚.
 
-## *Xander Pietrus C. Siao* 
+## *Xander Pietrus C. Siao* ✦‧₊˚.
 
 ## *8 - Dahlia* ‧₊˚❀༉‧₊˚.
 
