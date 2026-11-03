@@ -43,7 +43,9 @@
 ### ***PROGRAMMING ACTIVITY 1***
 
 >[Canteen_Purchase_Calculator.py](q2/canteen_purchase_calculator.py)
+>[Canteen_Purchase_Calculator.md](q2/canteen_purchase_calculator.md)
 
 ### ***PROGRAMMING ACTIVITY 2***
 
 >[Student_Performance_Evaluator.py](q2/student_performance_evaluator.py)
+>[Student_Performance_Evaluator.md](q2/student_performance_evaluator.md)
