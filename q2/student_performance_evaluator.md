@@ -1,4 +1,4 @@
-# **---GUIDE QUESTIONS---**
+# **GUIDE QUESTIONS⋆⭒˚.⋆**
 
 ## 1. Which function returns a number, which returns a string, and which returns a Boolean?
 > The function calculate_average() returns a number, The function get_performance() returns a string, and the function is_eligible() returns a boolean.
