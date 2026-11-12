@@ -51,3 +51,11 @@
 >[Student_Performance_Evaluator.py](q2/student_performance_evaluator.py)
 >
 >[Student_Performance_Evaluator.md](q2/student_performance_evaluator.md)
+
+### ***PAIR ACTIVITY***
+
+>
+
+### ***PROGRAMMING EXCERCISES
+
+>
