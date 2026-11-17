@@ -54,7 +54,7 @@
 
 ### ***PAIR ACTIVITY***
 
->
+>[Pair_Activity.py](q2/pair_activity.py)
 
 ### ***PROGRAMMING EXCERCISES***
 
