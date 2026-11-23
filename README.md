@@ -68,6 +68,6 @@
 
 ### ***PROGRAMMING EXERCISES 2***
 
-> a
+> [Exercise_1:My_School_Bag](q2/programming_exercise1.py)
 > 
-> a
+> [Exercise_2:Travel_Destination_Manager](q2/programming_exercise2.py)
